@@ -1,0 +1,19 @@
+.too-large {
+    padding: 100px 0;
+}
+
+.too-large .title {
+    margin: 40px auto;
+}
+
+.too-large button {
+    background-color: transparent;
+    border: solid 1px #475f7b;
+    border-radius: 4px;
+    margin-top: 40px;
+    padding: 10px 50px;
+}
+
+.too-large button:hover {
+    background-color: #fafbfb;
+}

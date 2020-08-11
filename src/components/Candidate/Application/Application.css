@@ -1,0 +1,51 @@
+.candidate .application form .form-input {
+    color: #f2f4f4;
+}
+.candidate .application form .resume-upload {
+    background-color: transparent;
+    border: solid 1px #e1e5e8;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 5px 12px 10px 12px;
+    height: 36px;
+    color: #f2f4f4;
+    font-family: Archivo;
+    font-size: 14px;
+    text-align: left;
+    width: 400px;
+}
+
+.candidate .application form .resume-upload .resume-label {
+    margin-right: 24px;
+}
+
+@media (max-width: 300px) {
+    .candidate .application form .resume-upload {
+        border: none;
+        width: 270px;
+        margin: 0 auto 40px auto;
+        text-align: center;
+    }
+    .candidate .application form .resume-upload .resume-label {
+        display: block;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+    .candidate .application form .resume-upload {
+        border: none;
+        width: 270px;
+        margin: 0 auto 40px auto;
+        text-align: center;
+    }
+    .candidate .application form .resume-upload .resume-label {
+        display: block;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+}

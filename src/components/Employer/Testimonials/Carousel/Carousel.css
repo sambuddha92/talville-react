@@ -1,0 +1,160 @@
+.employer .testimonials .carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.employer .testimonials .carousel .prev-icon, .next-icon {
+  max-height: 48px;
+  max-width: 48px;
+  height: 100%;
+  width: 100%;
+}
+
+.employer .testimonials .carousel .card-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.employer .testimonials .carousel .card-group .card {
+  text-align: left;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: -2px 2px 6px 0 rgba(58, 70, 93, 0.16);
+  height: 375px;
+  width: 300px;
+  padding-top: 76px;
+  position: relative;
+  margin: 0 1%;
+}
+
+.employer .testimonials .carousel .card-group .card .txt {
+  font-size: 16px;
+  width: 225px;
+  margin: 0 auto;
+}
+
+.employer .testimonials .carousel .card-group .card .profile {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+}
+
+.employer .testimonials .carousel .card-group .card .profile hr {
+  background-color: #f0f1f2;
+  border: none;
+  height: 1px;
+  width: 225px;
+  margin-bottom: 25px;
+}
+
+.employer .testimonials .carousel .card-group .card .profile .display-pic {
+  border-radius:50%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: top center;
+  vertical-align: middle;
+}
+
+.employer .testimonials .carousel .card-group .card .profile .identity {
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: middle;
+  margin-left: 3%;
+}
+
+.employer .testimonials .carousel .card-group .card .profile .identity .designation {
+  color: #828d99;
+}
+
+@media (max-width: 300px) {
+  .employer .testimonials .carousel .card-group .card {
+    height: 250px;
+    width: 200px;
+    padding-top: 25px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .txt {
+    font-size: 14px;
+    width: 180px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile hr {
+    width: 180px;
+    margin-bottom: 15px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile .identity {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .employer .testimonials .carousel .card-group .card {
+    height: 315px;
+    width: 250px;
+    padding-top: 40px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .txt {
+    font-size: 14px;
+    width: 180px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile hr {
+    width: 180px;
+    margin-bottom: 15px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile .identity {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .employer .testimonials .carousel .card-group .card {
+    height: 315px;
+    width: 250px;
+    padding-top: 40px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .txt {
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile hr {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile .identity {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .employer .testimonials .carousel .card-group .card {
+    height: 375px;
+    width: 300px;
+    padding-top: 60px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .txt {
+    font-size: 16px;
+    width: 225px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile hr {
+    width: 225px;
+    margin-bottom: 25px;
+  }
+
+  .employer .testimonials .carousel .card-group .card .profile .identity {
+    font-size: 13px;
+  }
+}

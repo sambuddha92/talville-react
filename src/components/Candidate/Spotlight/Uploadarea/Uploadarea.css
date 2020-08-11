@@ -1,0 +1,24 @@
+.candidate .spotlight .uploadarea {
+    background-color: #f2f4f4;
+    border: dashed 1px #bbc7d3;
+    border-radius: 4px;
+    display: flex;
+    padding: 2.5rem 4.5rem;
+    width: fit-content;
+  }
+  
+  .candidate .spotlight .uploadarea .upload-logo {
+    width: 20px;
+    height: 18px;
+  }
+  
+  .candidate .spotlight .uploadarea .content {
+    color: #475f7b;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+  }
+  
+  .candidate .spotlight .uploadarea .content .part-2 {
+    color: #0376e3;
+  }

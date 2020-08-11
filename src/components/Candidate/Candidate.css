@@ -1,0 +1,827 @@
+/*****
+Spotlight 
+*****/
+  .candidate .spotlight {
+    background-color: #fafbfb;
+    padding: 130px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .candidate .spotlight .primary-content {
+    margin: auto;
+    width: 60%;
+  }
+
+  .candidate .spotlight .primary-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -1.18px;
+  }
+
+  .candidate .spotlight .primary-content h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 35px auto;
+    width: 75%;
+  }
+
+  .candidate .spotlight .uploadarea {
+    margin: auto;
+    margin-bottom: 16px;
+  }
+
+  .candidate .spotlight .secondary-content .part-1 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .candidate .spotlight .secondary-content .part-2 {
+    color: #03c4c6;
+  }
+
+  .candidate .spotlight button {
+    background-color: #03c4c6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    padding: 10px 15px;
+  }
+
+  @media (max-width: 300px) {
+    .candidate .spotlight {
+      padding: 80px 0;
+    }
+
+    .candidate .spotlight .primary-content {
+      width: 90%;
+    }
+
+    .candidate .spotlight .primary-content h1 {
+      font-size: 36px;
+      letter-spacing: -0.76px;
+    }
+
+    .candidate .spotlight .primary-content h4 {
+      font-size: 14px;
+      margin: 30px auto;
+      width: 90%;
+    }
+
+    .candidate .spotlight .uploadarea {
+      display: none;
+    }
+
+    .candidate .spotlight .secondary-content {
+      display: none;
+    }
+
+    .candidate .spotlight button {
+      background-color: #03c4c6;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      display: block;
+      font-size: 14px;
+      margin: auto;
+      padding: 10px 15px;
+    }
+  }
+  
+  @media (min-width: 301px) and (max-width: 600px) {
+    .candidate .spotlight {
+      padding: 90px 0;
+    }
+
+    .candidate .spotlight .primary-content {
+      width: 90%;
+    }
+
+    .candidate .spotlight .primary-content h1 {
+      font-size: 36px;
+      letter-spacing: -0.76px;
+    }
+
+    .candidate .spotlight .primary-content h4 {
+      font-size: 14px;
+      margin: 30px auto;
+      width: 85%;
+    }
+
+    .candidate .spotlight .uploadarea {
+      display: none;
+    }
+
+    .candidate .spotlight .secondary-content {
+      display: none;
+    }
+
+    .candidate .spotlight button {
+      background-color: #03c4c6;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      display: block;
+      font-size: 14px;
+      margin: auto;
+      padding: 10px 15px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .candidate .spotlight {
+      padding: 100px 0;
+    }
+
+    .candidate .spotlight .primary-content {
+      width: 70%;
+    }
+
+    .candidate .spotlight .primary-content h1 {
+      font-size: 40px;
+      letter-spacing: -1px;
+    }
+
+    .candidate .spotlight .primary-content h4 {
+      font-size: 16px;
+      margin: 32px auto;
+      width: 80%;
+    }
+
+    .candidate .spotlight .uploadarea {
+      display: none;
+    }
+
+    .candidate .spotlight .secondary-content {
+      display: none;
+    }
+
+    .candidate .spotlight button {
+      background-color: #03c4c6;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      display: block;
+      font-size: 14px;
+      margin: auto;
+      padding: 10px 15px;
+    }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .candidate .spotlight {
+      padding: 115px 0;
+    }
+
+    .candidate .spotlight .primary-content {
+      width: 70%;
+    }
+
+    .candidate .spotlight .primary-content h1 {
+      font-size: 50px;
+      letter-spacing: -1.18px;
+    }
+
+    .candidate .spotlight .primary-content h4 {
+      font-size: 16px;
+      margin: 35px auto;
+      width: 80%;
+    }
+  }
+  
+  /*****
+  Usp
+  *****/
+  .candidate .usp {
+    padding: 60px 200px;
+  }
+
+  @media (max-width: 300px) {
+    .candidate .usp {
+      padding: 40px 0;
+    }
+
+    .candidate .usp row {
+      margin: 0;
+    }
+  }
+  
+  @media (min-width: 301px) and (max-width: 600px) {
+    .candidate .usp {
+      padding: 40px 50px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .candidate .usp {
+      padding: 50px 50px;
+    }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .candidate .usp {
+      padding: 60px 150px;
+    }
+  }
+
+  /*****
+  Testimonials
+  *****/
+  .candidate .testimonials {
+    background-color: #fafbfb;
+    padding: 110px 0;
+  }
+
+  .candidate .testimonials .title-hr {
+    background-color: #bbc7d3;
+    border: none;
+    margin: 0 auto;
+    height: 1px;
+    width: 840px;
+  }
+
+  .candidate .testimonials .quote-img {
+    max-width: 36px;
+    max-height: 104px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .candidate .testimonials .title {
+    font-size: 32px;
+    margin: auto;
+    width: 610px;
+  }
+
+  .candidate .testimonials .title .part-1 {
+    color: #0376e3;
+  }
+
+  .candidate .testimonials .carousel {
+    margin-top: 85px;
+  }
+
+  @media (max-width: 300px) {
+    .candidate .testimonials {
+      padding: 95px 0;
+    }
+
+    .candidate .testimonials .title-hr {
+      width: 200px;
+    }
+
+    .candidate .testimonials .title {
+      font-size: 20px;
+      width: 150px;
+    }
+
+    .candidate .testimonials .carousel {
+      margin-top: 50px;
+    }
+  }
+  
+  @media (min-width: 301px) and (max-width: 600px) {
+    .candidate .testimonials {
+      padding: 95px 0;
+    }
+
+    .candidate .testimonials .title-hr {
+      width: 250px;
+    }
+
+    .candidate .testimonials .title {
+      font-size: 24px;
+      width: 250px;
+    }
+
+    .candidate .testimonials .carousel {
+      margin-top: 50px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .candidate .testimonials {
+      padding: 100px 0;
+    }
+
+    .candidate .testimonials .title-hr {
+      width: 600px;
+    }
+
+    .candidate .testimonials .title {
+      font-size: 32px;
+      width: 500px;
+    }
+
+    .candidate .testimonials .carousel {
+      margin-top: 75px;
+    }
+  }
+
+  /*****
+  Companies
+  *****/
+  .candidate .companies {
+    padding: 150px 0;
+  }
+
+  .candidate .companies h1 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0 auto 36px auto;
+    width: 550px;
+  }
+
+  .candidate .companies h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 auto 65px auto;
+    width: 450px;
+  }
+
+  .candidate .companies .img-lg {
+    max-height: 375px;
+    max-width: 1050px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .candidate .companies .img-sm {
+    display: none;
+  }
+
+  @media (max-width: 300px) {
+    .candidate .companies {
+      padding: 80px 0;
+    }
+
+    .candidate .companies h1 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0 auto 12px auto;
+      width: 200px;
+    }
+
+    .candidate .companies h3 {
+      font-size: 16px;
+      font-weight: normal;
+      margin: 0 auto 30px auto;
+      width: 180px;
+    }
+
+    .candidate .companies .img-lg {
+      display: none;
+    }
+
+    .candidate .companies .img-sm {
+      display: block;
+      max-height: 375px;
+      max-width: 200px;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 301px) and (max-width: 600px) {
+    .candidate .companies {
+      padding: 100px 0;
+    }
+
+    .candidate .companies h1 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0 auto 12px auto;
+      width: 250px;
+    }
+
+    .candidate .companies h3 {
+      font-size: 16px;
+      font-weight: normal;
+      margin: 0 auto 30px auto;
+      width: 200px;
+    }
+
+    .candidate .companies .img-lg {
+      display: none;
+    }
+
+    .candidate .companies .img-sm {
+      display: block;
+      max-height: 470px;
+      max-width: 250px;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .candidate .companies {
+      padding: 140px 0;
+    }
+
+    .candidate .companies h1 {
+      font-size: 38px;
+      font-weight: 500;
+      margin: 0 auto 30px auto;
+      width: 550px;
+    }
+
+    .candidate .companies h3 {
+      font-size: 18px;
+      font-weight: normal;
+      margin: 0 auto 50px auto;
+      width: 400px;
+    }
+
+    .candidate .companies .img-lg {
+      max-height: 190px;
+      max-width: 525px;
+    }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .candidate .companies {
+      padding: 120px 0;
+    }
+
+    .candidate .companies .img-lg {
+      max-height: 300px;
+      max-width: 850px;
+    }
+  }
+
+  /*****
+  Go Premium
+  *****/
+  .candidate .go-premium {
+    background-color: #222f3e;
+    padding: 130px 0;
+    position: relative;
+  }
+
+  .candidate .go-premium .background-pattern {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .candidate .go-premium .title {
+    margin: 0 auto 95px auto;
+    text-align: right;
+    width: fit-content;
+  }
+
+  .candidate .go-premium .title h1 {
+    color: #f2f4f4;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .candidate .go-premium .title .part-2 {
+    color: #ffdd00;
+  }
+
+  .candidate .go-premium .title img {
+    max-height: 36px;
+    max-width: 36px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 8px;
+    left: 4px;
+  }
+
+  .candidate .go-premium .usp {
+    margin: 0 auto;
+    padding: 0;
+    width: 840px;
+  }
+
+  .candidate .go-premium button {
+    background-color: #03c4c6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin: 60px auto 0 auto;
+  }
+
+  @media (max-width: 300px) {
+    .candidate .go-premium {
+      padding: 65px 0;
+    }
+
+    .candidate .go-premium .title {
+      margin-bottom: 80px;
+      text-align: center;
+      width: 220px;
+    }
+
+    .candidate .go-premium .title h1 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .candidate .go-premium .title img {
+      position: static;
+      margin-bottom: 16px;
+    }
+
+    .candidate .go-premium .usp {
+      width: 220px;
+    }
+  }
+  
+  @media (min-width: 301px) and (max-width: 600px) {
+    .candidate .go-premium {
+      padding: 75px 0;
+    }
+
+    .candidate .go-premium .title {
+      margin-bottom: 80px;
+      text-align: center;
+      width: 250px;
+    }
+
+    .candidate .go-premium .title h1 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .candidate .go-premium .title img {
+      position: static;
+      margin-bottom: 16px;
+    }
+
+    .candidate .go-premium .usp {
+      width: 250px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .candidate .go-premium .usp {
+      width: 550px;
+    }
+
+    .candidate .go-premium .title {
+      margin-bottom: 80px;
+      text-align: center;
+    }
+
+    .candidate .go-premium .title img {
+      position: static;
+      margin-bottom: 16px;
+    }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .candidate .go-premium .title img {
+      top: 8px;
+      left: 4px;
+    }
+  }
+
+  .candidate .application {
+    background-color: #0376e3;
+    display: flex;
+    padding: 160px 0 0 0;
+  }
+
+  .candidate .application .content {
+    width: 475px;
+    margin-right: 110px;
+    text-align: right;
+  }
+
+  .candidate .application .content h1 {
+    color: white;
+    width: 200px;
+    font-family: Archivo;
+    font-size: 32px;
+    font-weight: 500;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: left;
+  }
+
+  .candidate .application .content .img-lg {
+    max-height: 225px;
+    max-width: 460px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .candidate .application .img-md-sm {
+    display: none;
+  }
+
+  .candidate .application form {
+    width: 600px;
+  }
+
+  .candidate .application form .form-input {
+    background-color: transparent;
+    border: solid 1px #e1e5e8;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding: 8px 12px 10px 12px;
+    height: 36px;
+    width: 270px;
+  }
+
+  .candidate .application form .input-one {
+    margin-right: 24px;
+  }
+
+  .candidate .application form .form-input::placeholder {
+    color: #f2f4f4;
+    font-family: Archivo;
+    font-size: 14px;
+  }
+
+  .candidate .application form .submit-button {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    color: #304156;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 50px;
+  }
+
+  @media (max-width: 300px) {
+    .candidate .application {
+      display: inline-block;
+      padding: 100px 0 0 0;
+      width: 100%;
+    }
+
+    .candidate .application .content {
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    .candidate .application .content h1 {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .candidate .application form {
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    .candidate .application form .group-one, .group-2 {
+      margin-top: 40px;
+    }
+
+    .candidate .application form .form-input {
+      margin: 0 auto;
+      margin-bottom: 40px;
+      width: 180px;
+    }
+
+    .candidate .application .content .img-lg {
+      display: none;
+    }
+
+    .candidate .application .img-md-sm {
+      display: block;
+      max-height: 145px;
+      max-width: 200px;
+      height: 100%;
+      width: 100%;
+      margin: 40px auto 0 auto;
+    }
+  }
+  
+  @media (min-width: 301px) and (max-width: 600px) {
+    .candidate .application {
+      display: inline-block;
+      padding: 120px 0 0 0;
+      width: 100%;
+    }
+
+    .candidate .application .content {
+      width: 250px;
+      margin: 0 auto;
+    }
+
+    .candidate .application .content h1 {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .candidate .application form {
+      width: 250px;
+      margin: 0 auto;
+    }
+
+    .candidate .application form .group-one, .group-2 {
+      margin-top: 40px;
+    }
+
+    .candidate .application form .form-input {
+      margin: 0 auto;
+      margin-bottom: 40px;
+      width: 220px;
+    }
+
+    .candidate .application .content .img-lg {
+      display: none;
+    }
+
+    .candidate .application .img-md-sm {
+      display: block;
+      max-height: 180px;
+      max-width: 250px;
+      height: 100%;
+      width: 100%;
+      margin: 50px auto 0 auto;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .candidate .application {
+      display: inline-block;
+      padding: 130px 0 0 0;
+      width: 100%;
+    }
+
+    .candidate .application .content {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .candidate .application .content h1 {
+      text-align: center;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .candidate .application form {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .candidate .application form .group-one, .group-two {
+      margin-top: 40px;
+    }
+
+    .candidate .application form .group-one .input-one {
+      margin-right: 24px;
+    }
+
+    .candidate .application form .group-two .input-one {
+      margin-right: 24px;
+    }
+
+    .candidate .application form .form-input {
+      margin: 0 auto;
+      margin-bottom: 40px;
+      width: 220px;
+    }
+
+    .candidate .application .content .img-lg {
+      display: none;
+    }
+
+    .candidate .application .img-md-sm {
+      display: block;
+      max-height: 360px;
+      max-width: 500px;
+      height: 100%;
+      width: 100%;
+      margin: 50px auto 0 auto;
+    }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .candidate .application .content {
+      width: 400px;
+      margin-right: 50px;
+      text-align: right;
+      overflow: hidden;
+    }
+
+    .candidate .application .content .img-lg {
+      max-height: 170px;
+      max-width: 350px;
+      height: 100%;
+      width: 100%;
+    }
+
+    .candidate .application form .form-input {
+      width: 200px;
+    }
+  }

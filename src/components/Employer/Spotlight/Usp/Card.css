@@ -1,0 +1,68 @@
+.employer .usp .card {
+  border: none;
+  background-color: transparent;
+  margin: auto;
+  text-align: left;
+  width: 230px;
+}
+
+.employer .usp .card .img {
+  max-height: 48px;
+  max-width: 48px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.employer .usp .card .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.employer .usp .card .txt {
+  color: #828d99;
+  font-size: 14px;
+}
+
+@media (max-width: 300px) {
+  .employer .usp .card {
+    width: 200px;
+  }
+
+  .employer .usp .card .img {
+    max-height: 36px;
+    max-width: 36px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .employer .usp .card .title {
+    font-size: 18px;
+  }
+
+  .employer .usp .card .txt {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .employer .usp .card {
+    width: 230px;
+  }
+
+  .employer .usp .card .img {
+    max-height: 36px;
+    max-width: 36px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .employer .usp .card .title {
+    font-size: 18px;
+  }
+
+  .employer .usp .card .txt {
+    font-size: 12px;
+  }
+}

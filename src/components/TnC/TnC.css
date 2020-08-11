@@ -1,0 +1,118 @@
+.tnc {
+    background-color: #fafbfb;
+    padding: 100px 320px;
+}
+
+.tnc .title {
+    font-size: 56px;
+    margin-bottom: 100px;
+}
+
+.tnc .subtitle {
+    color: #475f7b;
+    font-size: 24px;
+}
+
+.tnc .text {
+    color: #475f7b;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.tnc .list-items {
+    color: #475f7b;
+    font-size: 16px;
+    text-align: left;
+}
+
+@media (max-width: 300px) {
+    .tnc {
+        padding: 60px 30px;
+    }
+    
+    .tnc .title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    
+    .tnc .subtitle {
+        font-size: 18px;
+    }
+    
+    .tnc .text {
+        font-size: 14px;
+    }
+
+    .tnc .list-items {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+    .tnc {
+        padding: 80px 70px;
+    }
+    
+    .tnc .title {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    
+    .tnc .subtitle {
+        font-size: 20px;
+    }
+    
+    .tnc .text {
+        font-size: 16px;
+    }
+
+    .tnc .list-items {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .tnc {
+        padding: 80px 100px;
+    }
+    
+    .tnc .title {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    
+    .tnc .subtitle {
+        font-size: 20px;
+    }
+    
+    .tnc .text {
+        font-size: 16px;
+    }
+
+    .tnc .list-items {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .tnc {
+        padding: 80px 150px;
+    }
+    
+    .tnc .title {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+    
+    .tnc .subtitle {
+        font-size: 24px;
+    }
+    
+    .tnc .text {
+        font-size: 16px;
+    }
+
+    .tnc .list-items {
+        font-size: 16px;
+    }
+}

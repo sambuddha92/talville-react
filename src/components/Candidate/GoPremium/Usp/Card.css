@@ -1,0 +1,45 @@
+  .candidate .go-premium .usp .card {
+    border: none;
+    background-color: none;
+    background: transparent;
+    margin: 0 auto;
+    text-align: center;
+    width: 232px;
+  }
+  
+  .candidate .go-premium .usp .card .img {
+    max-width: 20px;
+    max-height: 17px;
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+  
+  .candidate .go-premium .usp .card .title {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .candidate .go-premium .usp .card .txt {
+    color: #e7edf3;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  @media (max-width: 300px) {
+    .candidate .go-premium .usp .card {
+      width: 200px;
+    }
+  }
+  
+  @media (min-width: 301px) and (max-width: 600px) {
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+  }

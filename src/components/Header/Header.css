@@ -1,0 +1,18 @@
+.navbar {
+    padding: 0 10%;
+  }
+  
+  .logo-header {
+    height: 20px;
+    width: auto;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #304156;
+    font-weight: bold;
+    font-size: 0.75rem;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border: none;
+  }

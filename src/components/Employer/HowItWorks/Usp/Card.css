@@ -1,0 +1,31 @@
+  .employer .how-it-works .usp .card {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    text-align: center;
+    width: 230px;
+  }
+  .employer .how-it-works .usp .card .img {
+    max-height: 15px;
+    max-width: 15px;
+    height: 100%;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  
+  .employer .how-it-works .usp .card .title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .employer .how-it-works .usp .card .txt {
+    color: #475f7b;
+    font-size: 14px;
+  }
+
+  @media (max-width: 1200px) {
+    .employer .how-it-works .usp .card {
+      width: 200px;
+    }
+  }
