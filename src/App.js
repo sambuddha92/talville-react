@@ -32,7 +32,6 @@ export default () => (
             <Route path='/thank-you-employer' component={ThankYouEmployer} />
             <Route path='/file-too-large' component={FileTooLarge} />
             <Route path='/:company/jobs/:id' component={JobPage} />
-            {/*<Route path='/:company/jobs-2/:id' component={JobPage} />*/}
           </Switch>
       </Router>
     <Footer />
