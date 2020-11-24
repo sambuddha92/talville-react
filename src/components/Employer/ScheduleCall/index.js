@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 export default() => {
     const sendEmail = async (e) => {
         e.preventDefault();
-        await emailjs.sendForm('gmail', 'template_vo724hrA_clone', e.target, 'user_qQpAZq4WAGqS6mdIcwa5C');
+        await emailjs.sendForm('gmail', 'company_template', e.target, 'user_qZlQgUAsKgh9JJbIsE1rz');
         window.open('/thank-you-employer', "_self");
     }
 
